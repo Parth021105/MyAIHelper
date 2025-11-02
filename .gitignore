@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+backend/.env
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.zip
+
+# Documentation (temporary files)
+FIXED.md
+ALL_FIXED.md
+NEW_DESIGN.md
+SETUP_COMPLETE.md
+SPEED_OPTIMIZATIONS.md
+TROUBLESHOOTING.md
+VISIBLE_TEXT_UPDATE.md
+
+# Extension specific
+vite-project/node_modules/
+vite-project/dist/
+vite-project/package-lock.json

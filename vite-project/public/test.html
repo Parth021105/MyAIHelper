@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page - AI Quiz Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 { color: #667eea; }
+        .quiz-question {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Extension Test Page</h1>
+    
+    <div class="note">
+        <strong>👀 Look for the floating "🤖 AI" button in the bottom-right corner!</strong><br>
+        If you see it, your extension is working! Click it to get AI answers.
+    </div>
+
+    <h2>Sample Quiz Question:</h2>
+    <div class="quiz-question">
+        <p><strong>Question 1:</strong> What is the capital of France?</p>
+        <p>A) London<br>
+        B) Berlin<br>
+        C) Paris<br>
+        D) Madrid</p>
+    </div>
+
+    <div class="quiz-question">
+        <p><strong>Question 2:</strong> What is 2 + 2?</p>
+        <p>A) 3<br>
+        B) 4<br>
+        C) 5<br>
+        D) 6</p>
+    </div>
+
+    <h2>Sample Article:</h2>
+    <p>
+        The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. 
+        It is named after the engineer Gustave Eiffel, whose company designed and built the tower. 
+        Constructed from 1887 to 1889 as the entrance to the 1889 World's Fair, it was initially 
+        criticized by some of France's leading artists and intellectuals for its design, but it 
+        has become a global cultural icon of France and one of the most recognizable structures 
+        in the world.
+    </p>
+
+    <script>
+        // Log to console to verify page loaded
+        console.log("Test page loaded!");
+        
+        // Check if extension injected
+        setTimeout(() => {
+            const btn = document.getElementById("ai-helper-button");
+            if (btn) {
+                console.log("✅ Extension button found!");
+            } else {
+                console.log("❌ Extension button NOT found - check if extension is loaded");
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
