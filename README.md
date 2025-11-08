@@ -1,4 +1,4 @@
-# 🤖 AI Helper Chrome Extension ~by vandan
+
 
 A Chrome extension that provides instant AI-powered answers from any webpage with a single click. No more tab switching, copy-pasting, or waiting - just click the AI button and get your answer in seconds.
 
@@ -237,5 +237,3 @@ Have questions or suggestions? Feel free to open an issue or reach out!
 ---
 
 **⭐ If you find this project helpful, please give it a star on GitHub!**
-
-Made with ❤️ by Vandan
